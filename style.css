@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    width: 100vw;
+}
+.container {
+    width: 100%;
+}
+main {
+    margin: 0 3rem;
+}
+
+/* h3 {font-size: 30px;
+
+} */
+div > p {
+    /* outline: 0.1px solid; */
+    border: 1px solid;
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
+    padding: .5rem .2rem;
+    margin: 0;
+    /* font-size: 14px; */
+    font-family: 'Times New Roman', Times, serif;
+}
+.p {
+    border-right: 0;
+}
+button {
+    background-color: rgba(49, 172, 49, 0.808);
+    border-radius: 2px;
+    color: white;
+    border: none;
+    font-size: 12px;
+    padding: 7px;
+    width: 20%;
+}
+.main {
+    /* display: grid; */
+    grid-template-columns: 1fr, 5;
+    grid-auto-rows: 5vh;
+    /* border: 1px solid; */
+    margin: 1rem 0;
+}
+.one {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 5vh;
+    background-color: whitesmoke;
+    border: 1px solid;
+    border-bottom: 0;
+    /* font-size: larger; */
+}
+.two {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 5vh;
+    border: 1px solid;
+    border-bottom: 0;
+    /* font-size: larger; */
+}
+.three {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 5vh;
+    background-color: whitesmoke;
+    border: 1px solid;
+    border-bottom: 0;
+    /* font-size: larger; */
+}
+.four {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 5vh;
+    border: 1px solid;
+    border-bottom: 0;
+    /* font-size: larger; */
+}
+.five {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 5vh;
+    background-color: whitesmoke;
+    border: 1px solid;
+    border-bottom: 0;
+    /* font-size: larger; */
+}
+.six {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 5vh;
+    border: 1px solid;
+    /* border-bottom: 0; */
+    /* font-size: larger; */
+}
+@media screen and (max-width:400px){
+    .container{
+        border: 2px solid;
+        width: 100%;
+    }
+    img {
+        width: 100%;
+    }
+    p {
+        font-size: 8px;
+    }
+    main {
+        width: 90%;
+        margin: 0;
+        padding: 0 1rem;
+    }
+    button {
+        font-size: 8px;
+        width: 80%;
+    }
+}
+.picture {
+    width: 100vw;
+}
+.pic{
+    width: 70%;
+    margin-inline: 3rem;
+  }
