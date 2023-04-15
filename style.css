@@ -20,10 +20,11 @@ div > p {
     border-top: 0;
     border-bottom: 0;
     border-left: 0;
-    padding: .5rem .2rem;
+    padding: .5rem 0;
     margin: 0;
     /* font-size: 14px; */
     font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
 }
 .p {
     border-right: 0;
@@ -39,14 +40,15 @@ button {
 }
 .main {
     /* display: grid; */
-    grid-template-columns: 1fr, 5;
+    grid-template-columns: 2fr 3fr 2fr 3fr 2fr;
     grid-auto-rows: 5vh;
     /* border: 1px solid; */
     margin: 1rem 0;
+    border: 0;
 }
 .one {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 3fr 2fr 4fr 2fr;
     grid-auto-rows: 5vh;
     background-color: whitesmoke;
     border: 1px solid;
@@ -55,7 +57,7 @@ button {
 }
 .two {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 3fr 2fr 4fr 2fr;
     grid-auto-rows: 5vh;
     border: 1px solid;
     border-bottom: 0;
@@ -63,7 +65,7 @@ button {
 }
 .three {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 3fr 2fr 4fr 2fr;
     grid-auto-rows: 5vh;
     background-color: whitesmoke;
     border: 1px solid;
@@ -72,7 +74,7 @@ button {
 }
 .four {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 3fr 2fr 4fr 2fr;
     grid-auto-rows: 5vh;
     border: 1px solid;
     border-bottom: 0;
@@ -80,7 +82,7 @@ button {
 }
 .five {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 3fr 2fr 4fr 2fr;
     grid-auto-rows: 5vh;
     background-color: whitesmoke;
     border: 1px solid;
@@ -89,7 +91,7 @@ button {
 }
 .six {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 3fr 2fr 4fr 2fr;
     grid-auto-rows: 5vh;
     border: 1px solid;
     /* border-bottom: 0; */
@@ -97,7 +99,7 @@ button {
 }
 @media screen and (max-width:400px){
     .container{
-        border: 2px solid;
+        /* border: 2px solid; */
         width: 100%;
     }
     img {
@@ -107,13 +109,14 @@ button {
         font-size: 8px;
     }
     main {
-        width: 90%;
-        margin: 0;
-        padding: 0 1rem;
+        width: 70%;
+        margin: 0 auto;
+        padding: 0 2rem;
     }
     button {
         font-size: 8px;
-        width: 80%;
+        width: 70%;
+        padding: 4px;
     }
 }
 .picture {
